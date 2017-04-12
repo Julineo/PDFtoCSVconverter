@@ -1,0 +1,9 @@
+Maual run without user interface
+run Programs -> Anaconda 32 -> Spyder
+D:\PyProjects\0487\App\Scripts
+
+$ ipython
+In [1]: %load_ext autoreload
+In [2]: %autoreload 2
+In [3]: import MSNA_PDFscript
+In [4]: MSNA_PDFscript.main('../Files/MSNA/Eastern Maine Bargaining Unit 03-22-17.pdf')
